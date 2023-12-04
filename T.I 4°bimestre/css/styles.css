@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  }
+  body{
+
+    background-image: url('../imagens/background.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+  }
+  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background: rgb(1, 36, 0);
+  background: linear-gradient(90deg, rgba(1, 36, 0, 1) 0%, rgba(9, 121, 98, 1) 35%, rgba(1, 150, 97, 1) 100%);
+}
+
+li {
+  float: left;
+
+}
+
+li a:hover {
+  background-color: rgb(32, 102, 18);
+  padding: 10px;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.borda-arredondada {
+  width: 450px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 20px;
+  display: center;
+
+}
+
+.containerF {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: 200px rgb(0, 0, 0);
+  flex-direction: column;
+}
+
+
+
+.Alvaro {
+  
+  
+  border-radius: 30%;
+  width: 20%;
+  height: 10%;
+  margin-top: 1%;
+  
+ 
+  
+
+
+
+
+}
+
+
+.lore{
+
+  text-align: center;
+  
+  
+
+}
+
+.lore p{
+  display: inline-block;
+  border-style: solid;
+  margin-top: 1%;
+  font-family: 'Gabriela', serif;
+  font-size: 3vmin;
+  background: white;
+  padding: 0.5em 0.2em 0.8em 0.5em;
+  
+
+
+
+
+
+}
+
+.apresentacao{
+
+  width: 100%;
+  height: 100vh;
+
+}
+
+.container{
+
+  width: 100%;
+  height: 100vh;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.swiper{
+
+  width: 80%;
+  height: fit-content;
+}
+
+
+
+.swiper-slide img{
+
+  width: 100%;
+
+}
+
+
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+
+  color: black;
+
+}
+
+.swiper .swiper-pagination-bullet-active{
+
+  background: blue;}
+
+
+ .d-flex h3{
+
+  color: white;
+
+ }
+
+ 
+
+ .d-flex p{
+
+  font-family: 'Gabriela', serif;
+  color: white;
+  font-size: clamp(12px, 3vw, 22px);
+
+ }
+  
+.mb-3 img{
+
+  
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+
+
+}
+
+#carousel {
+  width: 30%;
+  overflow: hidden;
+  margin-left: 15%;
+  display: inline;
+
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.carousel-item img{
+
+
+  width: 100%;
+  height: 100%;
+
+}
+
+ 
+ 
+  .containerBotao{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+ 
+  button{
+
+  
+  position: relative;
+  width: 15%;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: bold;
+  border: 2px solid lightskyblue;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+  button:hover{
+
+    background: lightseagreen ;
+
+
+  }
